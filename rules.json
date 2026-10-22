@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "feedItemSelectors": [
+        "article",
+        "div[role=\"article\"]"
+    ],
+    "reelsTabPaths": [
+        "^/reels/?$",
+        "^/reels/audio/"
+    ],
+    "reelViewerPath": "^/reels?/([A-Za-z0-9_-]{5,})/?",
+    "explorePaths": [
+        "^/explore/?$",
+        "^/explore/(tags|locations)/"
+    ],
+    "exploreRedirect": "/explore/search/",
+    "reelLinkSelectors": [
+        "a[href*=\"/reel/\"]",
+        "a[href^=\"/reels/\"]"
+    ],
+    "caughtUpTexts": [
+        "you're all caught up",
+        "you’re all caught up",
+        "you've completely caught up",
+        "you’ve completely caught up",
+        "you've seen all new posts",
+        "you’ve seen all new posts",
+        "hepsini gördün",
+        "her şeyi gördün",
+        "tüm yeni gönderileri gördün",
+        "tamamen güncelsin"
+    ],
+    "suggestedHeadings": [
+        "suggested for you",
+        "suggested posts",
+        "suggested reels",
+        "senin için önerilenler",
+        "sana önerilenler",
+        "önerilen gönderiler",
+        "önerilen reels videoları",
+        "önerilen reels"
+    ],
+    "followButtonTexts": [
+        "follow",
+        "takip et"
+    ],
+    "sponsoredTexts": [
+        "sponsored",
+        "sponsorlu"
+    ],
+    "profileReelsPath": "^/([^/]+)/reels/?$"
+}
